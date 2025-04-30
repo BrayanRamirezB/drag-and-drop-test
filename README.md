@@ -1,12 +1,19 @@
-# React + Vite
+# React + Vite - Drag and Drop Test
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este proyecto es una aplicación minimalista creada con React y Vite, diseñada para probar y demostrar la funcionalidad de arrastrar y soltar (drag and drop) en una interfaz web.
 
-Currently, two official plugins are available:
+## Características principales
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **React + Vite**: Configuración optimizada para un desarrollo ágil y eficiente.
+- **Funcionalidad Drag and Drop**: Implementación de una interfaz interactiva que permite arrastrar y soltar elementos de manera intuitiva.
+- **Dependencia @formkit/drag-and-drop**: Utilizada para simplificar la implementación de la funcionalidad de arrastrar y soltar, proporcionando una API fácil de usar y altamente personalizable.
 
-## Expanding the ESLint configuration
+## Dependencia clave: @formkit/drag-and-drop
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Este proyecto utiliza la biblioteca [@formkit/drag-and-drop](https://formkit.com) para manejar la funcionalidad de arrastrar y soltar. Esta dependencia ofrece una solución ligera y eficiente para crear interfaces de usuario dinámicas con soporte para:
+
+- Reordenamiento de listas mediante arrastrar y soltar.
+- Compatibilidad con diferentes tipos de elementos interactivos.
+- Configuración sencilla y personalización avanzada para adaptarse a las necesidades del proyecto.
+
+¡Disfruta desarrollando con React y Vite mientras experimentas con la funcionalidad de drag and drop!
